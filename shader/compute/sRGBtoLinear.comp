@@ -1,0 +1,24 @@
+#version 460 core
+
+layout(local_size_x = 16, local_size_y = 16) in;
+
+layout(binding = 0, rgba8) uniform image2D inputImage;
+layout(binding = 1, rgba8) uniform image2D outputImage;
+
+vec3 toLinear(vec3 srgb) {
+    vec3 low  = srgb / 12.92;
+    vec3 high = pow((srgb + 0.055) / 1.055, vec3(2.4));
+    bvec3 cutoff = lessThanEqual(srgb, vec3(0.04045));
+    return mix(high, low, cutoff);
+}
+
+void main() {
+    ivec2 uv = ivec2(gl_GlobalInvocationID.xy);
+    ivec2 size = imageSize(inputImage);
+
+    if (uv.x < size.x && uv.y < size.y) {
+        vec4 srgbColor = imageLoad(inputImage, uv);
+        vec3 linearColor = toLinear(srgbColor.rgb);
+        imageStore(outputImage, uv, vec4(linearColor, srgbColor.a));
+    }
+}

@@ -1,0 +1,129 @@
+#version 460 core
+layout(local_size_x = 64, local_size_y = 1, local_size_z = 1) in;
+
+layout(std430, binding = 0) buffer LightPosViewBuffer { vec4 lightPosView[]; };
+layout(std430, binding = 1) buffer LightIndiceBuffer { int lightIndices[]; };
+layout(std430, binding = 2) buffer ClusterActiveBuffer { uint clusterActive[]; };
+
+uniform mat4 invProj;
+uniform int lightCount;
+uniform int tileSize;
+uniform int depthSliceCount;
+uniform int clusterCount;
+uniform int maxLightsPerCluster;
+uniform float R_max;
+uniform vec2 screenSize;
+uniform float z_near;
+uniform float z_far;
+uniform bool enablePlaneIntersection;
+uniform bool enableAABBIntersection;
+uniform bool enableLogDepthSlice;
+uniform bool enableClusterActivation;
+
+#define inf 1000000000.0
+
+vec4 getPlane(vec3 p0, vec3 p1, vec3 p2) {
+	vec3 v0 = p0 - p2;
+	vec3 v1 = p1 - p2;
+	vec3 normal = normalize(cross(v0, v1));
+	float d = -dot(normal, p0);
+	return vec4(normal, d);
+}
+
+bool planeIntersection(in vec4 lightPosView, in vec4 frustumPlanes[4]) {
+	for(int i = 0; i < 4; i++) {
+		float dis = dot(lightPosView, frustumPlanes[i]);
+		if(dis > R_max) {
+			return false;
+		}
+	}
+	return true;
+}
+
+bool AABBIntersection(vec3 center, vec3 aabbMin, vec3 aabbMax) {
+    vec3 closest = clamp(center, aabbMin, aabbMax);
+    vec3 d = center - closest;
+    float d2 = dot(d, d);
+    return d2 <= (R_max * R_max);
+}
+
+float sliceRatio2NDC(float t) {
+	float z_view;
+	if(enableLogDepthSlice) {
+		//float log_near = log(z_near + 1.0);
+		//float log_far  = log(z_far + 1.0);
+		//z_view = -(exp(mix(log_near, log_far, t)) - 1.0);
+		z_view = -(pow(z_near + 1, 1 - t) * pow(z_far + 1, t) - 1);
+	} else {
+		z_view = -mix(z_near, z_far, t);
+	}
+	float A = (z_far + z_near) / (z_near - z_far);
+	float B = (2.0 * z_far * z_near) / (z_near - z_far);
+	float z_proj = A * z_view + B;
+	float z_ndc = z_proj / (-z_view);
+	return z_ndc;
+}
+
+void main() {
+	int clusterIndex = int(gl_GlobalInvocationID.x);
+	if (clusterIndex >= clusterCount) return;
+	
+	int indexOffset = clusterIndex * maxLightsPerCluster;
+
+	if(enableClusterActivation && clusterActive[clusterIndex] == 0u) {
+		lightIndices[indexOffset] = 0;
+		return;
+	}
+	
+	int tileCountX = int(ceil(screenSize.x / float(tileSize)));
+	int tileCountY = int(ceil(screenSize.y / float(tileSize)));
+
+	int tileX = clusterIndex % tileCountX;
+	int tileY = (clusterIndex / tileCountX) % tileCountY;
+	int clusterZ = clusterIndex / (tileCountX * tileCountY);
+
+	vec2 tileMin = vec2(tileX, tileY) * tileSize / screenSize * 2. - 1.;
+	vec2 tileMax = vec2(tileX + 1, tileY + 1) * tileSize / screenSize * 2. - 1.;
+
+	float t_near = float(clusterZ) / float(depthSliceCount);
+	float t_far  = float(clusterZ + 1) / float(depthSliceCount);
+	float z_near_ndc = sliceRatio2NDC(t_near);
+	float z_far_ndc = sliceRatio2NDC(t_far);
+	
+	vec3 corners[8];
+	for (int i = 0; i < 4; i++) {
+        vec4 cornerNDC = vec4(
+            (i == 0 || i == 3) ? tileMin.x : tileMax.x,
+            (i == 0 || i == 1) ? tileMin.y : tileMax.y,
+            z_near_ndc,  1.0);
+        vec4 corner_rc = invProj * cornerNDC; // reconstructed clip space
+        corners[i] = corner_rc.xyz / corner_rc.w; // view space
+
+		cornerNDC.z = z_far_ndc;
+        corner_rc = invProj * cornerNDC;
+        corners[i + 4] = corner_rc.xyz / corner_rc.w;
+    }
+
+	vec4 frustumPlanes[4];
+	for(int i = 0; i < 4; i++) {
+		frustumPlanes[i] = getPlane(corners[i], corners[(i + 1) % 4], vec3(0));
+	}
+	
+	vec3 aabbMin = vec3(inf);
+	vec3 aabbMax = vec3(-inf);
+	for(int i = 0; i < 8; i++) {
+		aabbMin = min(aabbMin, corners[i]);
+		aabbMax = max(aabbMax, corners[i]);
+	}
+
+	int lightCountInCluster = 0;
+
+	for(int i = 0; i < lightCount && lightCountInCluster < maxLightsPerCluster - 1; i++) {
+		if ((!enableAABBIntersection || AABBIntersection(lightPosView[i].xyz, aabbMin, aabbMax)) && 
+			(!enablePlaneIntersection || planeIntersection(lightPosView[i], frustumPlanes))) {
+			lightCountInCluster++;
+			lightIndices[indexOffset + lightCountInCluster] = i;
+		}
+	}
+	lightIndices[indexOffset] = lightCountInCluster;
+}

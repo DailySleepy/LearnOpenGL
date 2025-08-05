@@ -1,0 +1,30 @@
+#version 430 core
+layout(local_size_x = 16, local_size_y = 16, local_size_z = 1) in;
+
+layout(std430, binding = 0) buffer MatrixA { float a[]; };
+layout(std430, binding = 1) buffer MatrixB { float b[]; };
+layout(std430, binding = 2) buffer MatrixC { float c[]; };
+
+uniform int m, k, n;
+
+shared float tileA[16][16];
+shared float tileB[16][16];
+
+void main() {
+    uint i = gl_GlobalInvocationID.x, j = gl_GlobalInvocationID.y;
+    if (i >= m || j >= n) return;
+
+    uint u = gl_LocalInvocationID.x, v = gl_LocalInvocationID.y;
+
+    float sum = 0.0;
+    for(int t = 0; t < k; t += 16) {
+        tileA[u][v] = (t + v < k) ? a[i * k + (t + v)] : 0.0;
+        tileB[u][v] = (t + u < k) ? b[(t + u) * n + j] : 0.0;
+        barrier();
+
+        for(int w = 0; w < 16; w++) {
+            sum += tileA[u][w] * tileB[w][v];
+        }
+    }
+    c[i * n + j] = sum;
+}

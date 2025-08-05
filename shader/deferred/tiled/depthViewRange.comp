@@ -1,0 +1,39 @@
+#version 460 core
+#extension GL_ARB_bindless_texture : require
+
+layout(local_size_x = 16, local_size_y = 16, local_size_z = 1) in;
+
+layout(std430, binding = 0) buffer DepthViewRangeBuffer { ivec2 depthViewRangeInt[]; };
+layout(std430, binding = 1) buffer DebugBuffer1 { int debugArray1[]; };
+
+layout(std140, binding = 0) uniform Matrices {
+	mat4 projection;
+	mat4 view;
+};
+
+layout(bindless_sampler) uniform sampler2D gPosition;
+
+uniform vec2 screenSize;
+uniform int tileSize;
+uniform int tileCountX;
+
+#define INT_MAX  2147438647
+#define INT_MIN -2147438648
+
+void main() {
+	ivec2 pixel = ivec2(gl_GlobalInvocationID.xy);
+	if(pixel.x >= screenSize.x || pixel.y >= screenSize.y) return;
+
+	ivec2 tileId = pixel / tileSize;
+	int tileIndex = tileId.y * tileCountX + tileId.x;
+
+	vec4 worldPos = texelFetch(gPosition, pixel, 0);
+	if(vec3(worldPos) == vec3(0)) return;
+	vec3 viewPos = vec3(view * worldPos);
+	float depth = viewPos.z;
+	int depthInt = floatBitsToInt(depth);
+	debugArray1[tileIndex] = depthInt; //-1073455104
+
+	atomicMin(depthViewRangeInt[tileIndex][0], depthInt);
+	atomicMax(depthViewRangeInt[tileIndex][1], depthInt);
+}

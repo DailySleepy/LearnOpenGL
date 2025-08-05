@@ -1,0 +1,1982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\CApi\CInterfaceIOWrapper.cpp">
+      <Filter>CApi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Compression.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\IOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\ZipArchiveIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\simd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\material.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\AssertHandler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Exceptional.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Base64.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Geometry\GeometryUtils.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\CApi\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\DropFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ScaleProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ArmaturePopulate.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\SplitByBoneCountProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Material\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\STEPParser\STEPFileReader.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\STEPParser\STEPFileEncoding.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\AMF\AMFImporter.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\AMF\AMFImporter_Geometry.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\AMF\AMFImporter_Material.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\AMF\AMFImporter_Postprocess.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3DS\3DSConverter.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3DS\3DSLoader.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\AC\ACLoader.cpp">
+      <Filter>AssetLib\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\ASE\ASELoader.cpp">
+      <Filter>AssetLib\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\ASE\ASEParser.cpp">
+      <Filter>AssetLib\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assbin\AssbinLoader.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\B3D\B3DImporter.cpp">
+      <Filter>AssetLib\B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\BVH\BVHLoader.cpp">
+      <Filter>AssetLib\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Collada\ColladaHelper.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Collada\ColladaLoader.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Collada\ColladaParser.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\DXF\DXFLoader.cpp">
+      <Filter>AssetLib\DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\CSM\CSMLoader.cpp">
+      <Filter>AssetLib\CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\HMP\HMPLoader.cpp">
+      <Filter>AssetLib\HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Irr\IRRMeshLoader.cpp">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Irr\IRRShared.cpp">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IQM\IQMImporter.cpp">
+      <Filter>AssetLib\IQM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Irr\IRRLoader.cpp">
+      <Filter>AssetLib\IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\LWO\LWOAnimation.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\LWO\LWOBLoader.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\LWO\LWOLoader.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\LWO\LWOMaterial.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\LWS\LWSLoader.cpp">
+      <Filter>AssetLib\LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\M3D\M3DImporter.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\M3D\M3DWrapper.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MD2\MD2Loader.cpp">
+      <Filter>AssetLib\MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MD3\MD3Loader.cpp">
+      <Filter>AssetLib\MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MD5\MD5Loader.cpp">
+      <Filter>AssetLib\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MD5\MD5Parser.cpp">
+      <Filter>AssetLib\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDC\MDCLoader.cpp">
+      <Filter>AssetLib\MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\MDLLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\MDLMaterialLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\HalfLife\HL1MDLLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\NFF\NFFLoader.cpp">
+      <Filter>AssetLib\NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\NDO\NDOLoader.cpp">
+      <Filter>AssetLib\NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\OFF\OFFLoader.cpp">
+      <Filter>AssetLib\OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Obj\ObjFileImporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Obj\ObjFileMtlImporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Obj\ObjFileParser.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ogre\OgreImporter.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ogre\OgreStructs.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ogre\OgreBinarySerializer.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ogre\OgreXmlSerializer.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ogre\OgreMaterial.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\OpenGEX\OpenGEXImporter.cpp">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ply\PlyLoader.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ply\PlyParser.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MS3D\MS3DLoader.cpp">
+      <Filter>AssetLib\MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\COB\COBLoader.cpp">
+      <Filter>AssetLib\COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderLoader.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderDNA.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderScene.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderModifier.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderBMesh.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderTessellator.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderCustomData.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCLoader.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCReaderGen1_2x3.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCReaderGen2_2x3.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCUtil.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCGeometry.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCMaterial.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCProfile.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCCurve.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCBoolean.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCOpenings.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\XGL\XGLLoader.cpp">
+      <Filter>AssetLib\XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXImporter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXParser.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXTokenizer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXConverter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXUtil.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXDocument.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXProperties.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXMeshGeometry.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXMaterial.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXModel.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXAnimation.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXNodeAttribute.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXDeformer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXBinaryTokenizer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXDocumentUtil.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Q3D\Q3DLoader.cpp">
+      <Filter>AssetLib\Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Q3BSP\Q3BSPFileParser.cpp">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Q3BSP\Q3BSPFileImporter.cpp">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Raw\RawLoader.cpp">
+      <Filter>AssetLib\RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\SIB\SIBImporter.cpp">
+      <Filter>AssetLib\SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\SMD\SMDLoader.cpp">
+      <Filter>AssetLib\SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\STL\STLLoader.cpp">
+      <Filter>AssetLib\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Terragen\TerragenLoader.cpp">
+      <Filter>AssetLib\TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Unreal\UnrealLoader.cpp">
+      <Filter>AssetLib\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X\XFileImporter.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X\XFileParser.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter_Geometry2D.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter_Geometry3D.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter_Group.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter_Light.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter_Metadata.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter_Networking.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter_Postprocess.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter_Rendering.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter_Shape.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter_Texturing.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DGeoHelper.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DXmlHelper.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF\glTFCommon.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF\glTFImporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF2\glTF2Importer.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3MF\XmlSerializer.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3MF\D3MFImporter.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3MF\D3MFOpcPackage.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MMD\MMDImporter.cpp">
+      <Filter>AssetLib\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MMD\MMDPmxParser.cpp">
+      <Filter>AssetLib\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Obj\ObjExporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\OpenGEX\OpenGEXExporter.cpp">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ply\PlyExporter.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3DS\3DSExporter.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assbin\AssbinExporter.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assbin\AssbinFileWriter.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assxml\AssxmlExporter.cpp">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assxml\AssxmlFileWriter.cpp">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\M3D\M3DExporter.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Collada\ColladaExporter.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXExporter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXExportNode.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXExportProperty.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\STL\STLExporter.cpp">
+      <Filter>AssetLib\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X\XFileExporter.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DExporter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF\glTFExporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF2\glTF2Exporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3MF\D3MFExporter.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Pbrt\PbrtExporter.cpp">
+      <Filter>AssetLib\PBRT</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assjson\cencode.c">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assjson\json_exporter.cpp">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assjson\mesh_splitter.cpp">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Step\StepExporter.cpp">
+      <Filter>AssetLib\STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\unzip\ioapi.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\unzip\unzip.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\clipper\clipper.cpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\CApi\CInterfaceIOWrapper.h">
+      <Filter>CApi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\StbCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Compression.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\PolyTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Maybe.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\StackAllocator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\StackAllocator.inl">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\simd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Geometry\GeometryUtils.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\LogStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Logger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\NullLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Common\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\BlobIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\DropFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ScaleProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\ArmaturePopulate.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\GenBoundingBoxesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\PostProcessing\SplitByBoneCountProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Material\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\STEPParser\STEPFileReader.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\STEPParser\STEPFileEncoding.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\AMF\AMFImporter.hpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\AMF\AMFImporter_Node.hpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3DS\3DSHelper.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3DS\3DSLoader.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\AC\ACLoader.h">
+      <Filter>AssetLib\AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\ASE\ASELoader.h">
+      <Filter>AssetLib\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\ASE\ASEParser.h">
+      <Filter>AssetLib\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assbin\AssbinLoader.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\B3D\B3DImporter.h">
+      <Filter>AssetLib\B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\BVH\BVHLoader.h">
+      <Filter>AssetLib\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Collada\ColladaHelper.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Collada\ColladaLoader.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Collada\ColladaParser.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\DXF\DXFLoader.h">
+      <Filter>AssetLib\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\DXF\DXFHelper.h">
+      <Filter>AssetLib\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\CSM\CSMLoader.h">
+      <Filter>AssetLib\CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\HMP\HMPFileData.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\HMP\HMPLoader.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\HMP\HalfLifeFileData.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Irr\IRRMeshLoader.h">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Irr\IRRShared.h">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IQM\iqm.h">
+      <Filter>AssetLib\IQM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IQM\IQMImporter.h">
+      <Filter>AssetLib\IQM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Irr\IRRLoader.h">
+      <Filter>AssetLib\IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\LWO\LWOAnimation.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\LWO\LWOFileData.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\LWO\LWOLoader.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\LWS\LWSLoader.h">
+      <Filter>AssetLib\LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\M3D\M3DMaterials.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\M3D\M3DImporter.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\M3D\M3DWrapper.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\M3D\m3d.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MD2\MD2FileData.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MD2\MD2Loader.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MD2\MD2NormalTable.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MD3\MD3FileData.h">
+      <Filter>AssetLib\MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MD3\MD3Loader.h">
+      <Filter>AssetLib\MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MD5\MD5Loader.h">
+      <Filter>AssetLib\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MD5\MD5Parser.h">
+      <Filter>AssetLib\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDC\MDCFileData.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDC\MDCLoader.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDC\MDCNormalTable.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\MDLDefaultColorMap.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\MDLFileData.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\MDLLoader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\HalfLife\HalfLifeMDLBaseHeader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\HalfLife\HL1FileData.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\HalfLife\HL1MDLLoader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\HalfLife\HL1ImportDefinitions.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\HalfLife\HL1ImportSettings.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\HalfLife\HL1MeshTrivert.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\HalfLife\LogFunctions.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\NFF\NFFLoader.h">
+      <Filter>AssetLib\NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\NDO\NDOLoader.h">
+      <Filter>AssetLib\NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\OFF\OFFLoader.h">
+      <Filter>AssetLib\OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Obj\ObjFileData.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Obj\ObjFileImporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Obj\ObjFileMtlImporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Obj\ObjFileParser.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Obj\ObjTools.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ogre\OgreImporter.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ogre\OgreStructs.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ogre\OgreParsingUtils.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ogre\OgreBinarySerializer.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ogre\OgreXmlSerializer.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\OpenGEX\OpenGEXImporter.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\OpenGEX\OpenGEXStructs.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ply\PlyLoader.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ply\PlyParser.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MS3D\MS3DLoader.h">
+      <Filter>AssetLib\MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\COB\COBLoader.h">
+      <Filter>AssetLib\COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\COB\COBScene.h">
+      <Filter>AssetLib\COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderLoader.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderDNA.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderDNA.inl">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderScene.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderSceneGen.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderIntermediate.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderModifier.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderBMesh.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderTessellator.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Blender\BlenderCustomData.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCLoader.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCReaderGen_2x3.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\IFC\IFCUtil.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\XGL\XGLLoader.h">
+      <Filter>AssetLib\XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXCompileConfig.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXImporter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXParser.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXTokenizer.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXImportSettings.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXConverter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXUtil.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXDocument.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXProperties.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXMeshGeometry.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXCommon.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Q3D\Q3DLoader.h">
+      <Filter>AssetLib\Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Q3BSP\Q3BSPFileData.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Q3BSP\Q3BSPFileParser.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Q3BSP\Q3BSPFileImporter.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Raw\RawLoader.h">
+      <Filter>AssetLib\RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\SIB\SIBImporter.h">
+      <Filter>AssetLib\SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\SMD\SMDLoader.h">
+      <Filter>AssetLib\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\STL\STLLoader.h">
+      <Filter>AssetLib\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Terragen\TerragenLoader.h">
+      <Filter>AssetLib\TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Unreal\UnrealLoader.h">
+      <Filter>AssetLib\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X\XFileHelper.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X\XFileImporter.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X\XFileParser.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter_Macro.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DImporter_Node.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DGeoHelper.h">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DXmlHelper.h">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF\glTFCommon.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF\glTFAsset.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF\glTFAsset.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF\glTFAssetWriter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF\glTFAssetWriter.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF\glTFImporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF2\glTF2Asset.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF2\glTF2Asset.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF2\glTF2AssetWriter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF2\glTF2AssetWriter.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF2\glTF2Importer.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3MF\3MFTypes.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3MF\XmlSerializer.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3MF\D3MFImporter.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3MF\D3MFOpcPackage.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3MF\3MFXmlTags.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MMD\MMDCpp14.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MMD\MMDImporter.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MMD\MMDPmdParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MMD\MMDPmxParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\MMD\MMDVmdParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Obj\ObjExporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\OpenGEX\OpenGEXExporter.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Ply\PlyExporter.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3DS\3DSExporter.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assbin\AssbinExporter.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assbin\AssbinFileWriter.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assxml\AssxmlExporter.h">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assxml\AssxmlFileWriter.h">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\M3D\M3DExporter.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Collada\ColladaExporter.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXExporter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXExportNode.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\FBX\FBXExportProperty.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\STL\STLExporter.h">
+      <Filter>AssetLib\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X\XFileExporter.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\X3D\X3DExporter.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF\glTFExporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\glTF2\glTF2Exporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\3MF\D3MFExporter.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\Pbrt\PbrtExporter.h">
+      <Filter>AssetLib\PBRT</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assjson\cencode.h">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Assjson\mesh_splitter.h">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\AssetLib\Step\StepExporter.h">
+      <Filter>AssetLib\STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\unzip\crypt.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\unzip\ioapi.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\unzip\unzip.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\clipper\clipper.hpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\pugixml\src\pugiconfig.hpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\pugixml\src\pugixml.hpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\contrib\stb\stb_image.h">
+      <Filter>Contrib\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\anim.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\aabb.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\ai_assert.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\camera.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\color4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\color4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\build\include\assimp\config.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\ColladaMetaData.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\commonMetaData.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\defs.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\cfileio.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\light.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\material.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\material.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\matrix3x3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\matrix3x3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\matrix4x4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\matrix4x4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\mesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\ObjMaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\pbrmaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\GltfMaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\postprocess.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\quaternion.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\quaternion.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\scene.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\metadata.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\texture.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\types.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\vector2.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\vector2.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\vector3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\vector3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\version.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\cimport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\AssertHandler.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\importerdesc.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Importer.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\IOStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\IOSystem.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\cexport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Exporter.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\DefaultIOStream.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\DefaultIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\SceneCombiner.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\fast_atof.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\qnan.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\BaseImporter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Hash.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\MemoryIOWrapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\ParsingUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\StreamReader.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\StreamWriter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\StringComparison.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\StringUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\SGSpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\GenericProperty.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\SpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\SmallVector.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\SmoothingGroups.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\SmoothingGroups.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\StandardShapes.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\RemoveComments.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Subdivision.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Vertex.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\LineSplitter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\TinyFormatter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Profiler.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\LogAux.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Bitmap.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\XMLTools.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\IOStreamBuffer.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\CreateAnimMesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\XmlParser.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\MathFunctions.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Exceptional.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\ByteSwapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Base64.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\wanwan\Documents\Visual Studio 2022\projects\LearnOpenGL\Dependence\assimp\code\res\assimp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AssetLib">
+      <UniqueIdentifier>{7F70BACB-6A6A-3BC4-899B-9501FCEED062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3D">
+      <UniqueIdentifier>{2BDD14A6-3E4B-3933-B601-159C5BA19D9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3DS">
+      <UniqueIdentifier>{901E185E-EA64-3AD4-94EA-15DA97D46653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3MF">
+      <UniqueIdentifier>{B2F4774C-ED56-3E65-A6C9-E5430646278D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\AC">
+      <UniqueIdentifier>{6C8B612F-13FA-3DFD-A91B-94732A4E9DC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\AMF">
+      <UniqueIdentifier>{6E7BA172-4D4E-3602-9136-A0F76DC7CE71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASE">
+      <UniqueIdentifier>{F4651D75-C095-34D2-9C09-4C83ECC1DFC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSBIN">
+      <UniqueIdentifier>{3B3B67EA-CCA7-33E8-BA28-ABC9624C104B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSJSON">
+      <UniqueIdentifier>{7745908F-0DAC-33E4-B31D-F60DA6E5A545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSXML">
+      <UniqueIdentifier>{4B467EAD-0355-3069-BFE3-3CDF569EE5E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\B3D">
+      <UniqueIdentifier>{F26B7F43-DF5A-352C-BB4A-862797956357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\BLEND">
+      <UniqueIdentifier>{87644544-4254-363B-9219-65D346229AFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\BVH">
+      <UniqueIdentifier>{EAD2708A-EFA5-3EF4-8505-45DC066BB9DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\COB">
+      <UniqueIdentifier>{ED5E78E7-4234-3A2D-9775-E6A6CC9E198B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\COLLADA">
+      <UniqueIdentifier>{F6A5EC90-AC8F-33B8-8CDA-569F6AF0EA40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\CSM">
+      <UniqueIdentifier>{48C5E5EC-825B-3E8C-9197-ECF3891E89C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\DXF">
+      <UniqueIdentifier>{8F59564F-92CB-3481-9DE2-FAAE0FD70A71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\FBX">
+      <UniqueIdentifier>{183F1913-3B00-3735-A82A-B86B6C15DC96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\GLTF">
+      <UniqueIdentifier>{C77269AD-E8DC-3889-8C21-4EE923942193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\HMP">
+      <UniqueIdentifier>{5BC094FD-3909-3B9F-A32C-039981F6649D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IFC">
+      <UniqueIdentifier>{448078F2-7F7B-390F-8775-2BBC9D6F6ACF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IQM">
+      <UniqueIdentifier>{1BE50CDD-96E2-3E65-9E87-EBC4C4A49012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IRR">
+      <UniqueIdentifier>{9440C1E4-BFDE-3236-A5A6-C8E83345FE91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IRRMESH">
+      <UniqueIdentifier>{376AD6F0-A694-3CBB-A972-4F0FFCD7D3EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\LWO">
+      <UniqueIdentifier>{D8BA1ABE-A696-3422-9ECD-572F4CE3ABB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\LWS">
+      <UniqueIdentifier>{A2D9A8FB-7E47-3742-A164-542583A48FBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\M3D">
+      <UniqueIdentifier>{F894E0BC-C916-3034-B3C7-993401BEA1FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD2">
+      <UniqueIdentifier>{EB50148B-0B81-354D-BC71-78D24EFA7D59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD3">
+      <UniqueIdentifier>{38DAE965-BC1D-3B54-9749-6674766CC17D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD5">
+      <UniqueIdentifier>{2DC5626A-4EAA-3C46-A1FE-B82E896F05BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MDC">
+      <UniqueIdentifier>{8187F57C-EAB0-3F35-9188-3A7C29FAA07C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MDL">
+      <UniqueIdentifier>{C1D77AFF-5F40-3C01-8A57-CE0715C1B4DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MMD">
+      <UniqueIdentifier>{7BD60D1E-79DF-3B68-8D18-C6619CDC64E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MS3D">
+      <UniqueIdentifier>{80E76CC1-B920-35EF-B70F-916E320C28AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\NDO">
+      <UniqueIdentifier>{FEA2F23F-5F6C-3129-8CFD-5E5F87F9A8B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\NFF">
+      <UniqueIdentifier>{1DDEC52B-2057-3C9E-BC30-DC09BF07ECAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OBJ">
+      <UniqueIdentifier>{62C62908-1E31-3A4B-8EC7-9FC3843A06FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OFF">
+      <UniqueIdentifier>{2D49A864-B7E2-3C14-9744-F548ECA9BFA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OGRE">
+      <UniqueIdentifier>{C7D8419C-71F7-3A1A-88A6-6AF3115A6EB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OPENGEX">
+      <UniqueIdentifier>{6774EF57-3EBC-3613-BAE8-E0CF2CBC3008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\PBRT">
+      <UniqueIdentifier>{DF64F6F9-33EC-3051-9C1F-8427D729F3BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\PLY">
+      <UniqueIdentifier>{AA5FF4BE-3654-3C54-A932-32B604C57A08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\Q3BSP">
+      <UniqueIdentifier>{2A8A6A55-0E7E-3436-8931-65C71D056CFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\Q3D">
+      <UniqueIdentifier>{5C51A0D2-6312-37CC-9D08-76E61FE45600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\RAW">
+      <UniqueIdentifier>{E6D4ECE3-ADEE-34C4-8BBE-6F4C95269DDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\SIB">
+      <UniqueIdentifier>{F2D44500-63B6-35F0-B6BE-85367CFDA425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\SMD">
+      <UniqueIdentifier>{6D0ABA11-4C6D-311E-B098-AA18F3EB8B51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\STEP">
+      <UniqueIdentifier>{491C5125-D720-39B1-A98D-FA8D3467C85B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\STL">
+      <UniqueIdentifier>{F18C6A73-9D40-35FC-9F79-8834DEC07150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\TERRAGEN">
+      <UniqueIdentifier>{F7F5E44D-A05C-3BE2-8DF7-152ED066DB18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\X">
+      <UniqueIdentifier>{762D02D4-B1A9-35BD-858E-55E85C4BD8F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\X3D">
+      <UniqueIdentifier>{A0E91E83-E58D-30CB-A431-803ABAD5D351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\XGL">
+      <UniqueIdentifier>{98B2985D-FA1B-3F4C-B30F-72FC291DCA45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CApi">
+      <UniqueIdentifier>{7974C9EA-E7C5-38A0-A0D8-395156D54CB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{E90838F1-5E63-3553-8A11-272F8470DF92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{4F53B3E8-54AB-303E-95AE-61AC1FF6665A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{C6E8DA62-CE58-3369-9E87-8A7D9DE94398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Clipper">
+      <UniqueIdentifier>{BEC9D392-FE0A-330F-8503-E31C3E6D3D5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Poly2Tri">
+      <UniqueIdentifier>{347190A2-2D36-3CCF-9B01-98D4E4F71E2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Pugixml">
+      <UniqueIdentifier>{654AF096-36B7-33FD-8295-6F6C060029F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\open3dgc">
+      <UniqueIdentifier>{16D16D8E-87D5-3214-8C6B-C24D0B0B89E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\openddl_parser">
+      <UniqueIdentifier>{0664E331-0E70-3C23-B2AF-A584AB8828D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\stb">
+      <UniqueIdentifier>{577A9BAF-7E7A-30FC-A68B-2971B57CFDA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\unzip">
+      <UniqueIdentifier>{1C93C2A8-53B9-3CD3-9A32-791C2CB9C71D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{8377398F-B00B-30AB-97DC-6C0727F7A58E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{F54831E1-E1F5-3E46-94C4-D66068C552E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{B67232E0-8907-3648-B2B3-EDB88328AC48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{2CB7A4C1-A728-3405-8E33-8D4F97062AD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{55C63078-0C77-3FB9-81FC-BAB49619BA5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser">
+      <UniqueIdentifier>{1F62F3FA-0090-32E9-B0FC-406039B782BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{15ECA78C-07A9-3F63-8AF4-DE7F3D7C4A9F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{D62F3304-9C84-3C6D-900D-9F2217DAFBC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\assimp">
+      <UniqueIdentifier>{3D665F0D-BE05-3D2F-8278-EAB27A2D8975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{6DDF6302-F5C1-3D24-BD23-728E98716DAB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

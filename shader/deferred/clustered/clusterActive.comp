@@ -1,0 +1,50 @@
+#version 460 core
+#extension GL_ARB_bindless_texture : require
+layout(local_size_x = 16, local_size_y = 16, local_size_z = 1) in;
+
+layout(std430, binding = 0) buffer ClusterActiveBuffer { uint clusterActive[]; };
+
+layout(bindless_sampler, binding = 0) uniform sampler2D gDepth;
+uniform vec2 screenSize;
+uniform int tileSize;
+uniform int depthSliceCount;
+uniform float z_near;
+uniform float z_far;
+uniform bool enableLogDepthSlice;
+
+float ndc2LinearRatio(float z_ndc) {
+	float A = (z_far + z_near) / (z_near - z_far);
+    float B = (2.0 * z_far * z_near) / (z_near - z_far);
+    float z_view = B / -(z_ndc + A);
+	float t;
+	if(enableLogDepthSlice) {
+		float log_near = log(z_near + 1.0);
+		float log_far  = log(z_far + 1.0);
+		t = (log(-z_view + 1.0) - log_near) / (log_far - log_near);
+	} else {
+		t = (-z_view - z_near) / (z_far - z_near);
+	}
+    return clamp(t, 0.0, 1.0);
+}
+
+void main() {
+	ivec2 pixel = ivec2(gl_GlobalInvocationID.xy);
+	if(pixel.x >=  screenSize.x || pixel.y >= screenSize.y) return;
+
+	int tileX = pixel.x / tileSize;
+	int tileY = pixel.y / tileSize;
+
+	float z_buffer = texelFetch(gDepth, pixel, 0).r;
+	if(z_buffer == 1.) return;
+	float z_ndc = z_buffer * 2. - 1.;
+	float t = ndc2LinearRatio(z_ndc);
+	int clusterZ = int(t * depthSliceCount);
+
+	int tileCountX = int(ceil(screenSize.x / float(tileSize)));
+	int tileCountY = int(ceil(screenSize.y / float(tileSize)));
+
+	int clusterIndex = tileX + tileCountX * (tileY + tileCountY * clusterZ);
+
+	//atomicOr(clusterActive[clusterIndex / 32], 1u << (clusterIndex % 32)); 
+	clusterActive[clusterIndex] = 1;
+}

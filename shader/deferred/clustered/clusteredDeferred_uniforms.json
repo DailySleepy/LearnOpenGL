@@ -1,0 +1,16 @@
+Shader::UniformMap u_sClusterLight = {
+    {"gPosition", gPosition},
+    {"gNormal", gNormal},
+    {"gAlbedoSpec", gAlbedoSpec},
+    {"gDepth", gDepth},
+    {"viewPos", viewPos},
+    {"tileSize", tileSize},
+    {"tileCountX", tileCountX},
+    {"tileCountY", tileCountY},
+    {"depthSliceCount", depthSliceCount},
+    {"maxLightsPerCluster", maxLightsPerCluster},
+    {"R_max", R_max},
+    {"z_near", z_near},
+    {"z_far", z_far},
+    {"enableLogDepthSlice", enableLogDepthSlice},
+};
