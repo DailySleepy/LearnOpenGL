@@ -1,6 +1,6 @@
 LearnOpenGL/
-
 x64/
+.vs/
 
 *.vcxproj.user
 *.suo

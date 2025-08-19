@@ -119,11 +119,11 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(SolutionDir)Dependence\GLFW\lib-vc2022;$(SolutionDir)Dependence\GLEW\lib\Release\x64;$(SolutionDir)Dependence\assimp\build\lib\Debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependence\GLFW;$(SolutionDir)Dependence\GLEW;$(SolutionDir)Dependence\assimp</AdditionalLibraryDirectories>
       <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32s.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /Y /D "$(SolutionDir)Dependence\assimp\build\bin\Debug\assimp-vc143-mtd.dll" "$(OutDir)"</Command>
+      <Command>xcopy /Y /D "$(SolutionDir)Dependence\assimp\assimp-vc143-mtd.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
     <PostBuildEvent>
       <Message>Copying assimp-vc143-mtd.dll to output directory</Message>
