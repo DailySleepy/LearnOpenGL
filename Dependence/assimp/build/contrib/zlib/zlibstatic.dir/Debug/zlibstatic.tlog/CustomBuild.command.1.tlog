@@ -1,0 +1,10 @@
+^C:\USERS\WANWAN\DOCUMENTS\VISUAL STUDIO 2022\PROJECTS\LEARNOPENGL\DEPENDENCE\ASSIMP\CONTRIB\ZLIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wanwan/Documents/Visual Studio 2022/projects/LearnOpenGL/Dependence/assimp" "-BC:/Users/wanwan/Documents/Visual Studio 2022/projects/LearnOpenGL/Dependence/assimp/build" --check-stamp-file "C:/Users/wanwan/Documents/Visual Studio 2022/projects/LearnOpenGL/Dependence/assimp/build/contrib/zlib/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
