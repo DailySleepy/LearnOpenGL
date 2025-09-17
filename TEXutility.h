@@ -12,7 +12,7 @@ struct TEX
 	static void setTexFilter(GLenum minFilterMode = GL_LINEAR_MIPMAP_LINEAR, GLenum magFilterMode = GL_LINEAR);
 	static void setTexWarp(GLenum wrapMode = GL_REPEAT, int dimension = 2);
 
-	static uint32_t createTexture(int width, int height, GLenum iFormat = GL_RGBA8);
+	static uint32_t createTexture(int width, int height, GLenum iFormat = GL_RGBA8, GLenum filterMode = GL_LINEAR);
 	static uint32_t createMultisampleTexture(int width, int height, GLenum iFormat = GL_RGBA8, int samples = 4);
 	static uint32_t createDepthTexture(int width, int height, GLenum iFormat = GL_DEPTH_COMPONENT32);
 	static uint32_t createCubemap(int width, int height, GLenum iFormat = GL_RGBA8);
@@ -28,7 +28,7 @@ struct TEX
 	static void destroyImageHandle(uint64_t handle) { GLCall(glMakeImageHandleNonResidentARB(handle)); }
 
 	static uint32_t loadTextureFromFilepath(string path);
-	static uint32_t loadTextureFromFilepath(string path, int* w, int* h);
+	static uint32_t loadTextureFromFilepath(string path, int* w, int* h, GLenum filterMode = GL_LINEAR);
 	static uint32_t loadTextureFromModel(const aiTexture* aiTex);
 	static uint32_t loadCubemapFromFilepath(vector<string> faces);
 

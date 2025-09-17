@@ -158,7 +158,6 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Application.cpp" />
     <ClCompile Include="Dependence\imgui\backends\imgui_impl_opengl3.cpp" />
     <ClCompile Include="Dependence\imgui\imgui.cpp" />
     <ClCompile Include="Dependence\imgui\imgui_demo.cpp" />
@@ -168,6 +167,7 @@
     <ClCompile Include="Dependence\imgui\imgui_widgets.cpp" />
     <ClCompile Include="FrameBuffer.cpp" />
     <ClCompile Include="GLCall.cpp" />
+    <ClCompile Include="history\compute shader\general image process\Application - bindless texture.cpp" />
     <ClCompile Include="IndexBuffer.cpp" />
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="Model.cpp" />
@@ -181,15 +181,8 @@
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="shader\deferred\clustered\clusteredDeferred.frag" />
-    <None Include="shader\deferred\clustered\clusteredDeferred.vert" />
-    <None Include="shader\deferred\clustered\clusterLight.comp" />
-    <None Include="shader\deferred\instancedLight.shader" />
-    <None Include="shader\deferred\renderGbuffer.frag" />
-    <None Include="shader\deferred\renderGbuffer.vert" />
-    <None Include="shader\deferred\tiled\transformLight.comp" />
+    <None Include="shader\compute\interpolation_sampling.comp" />
     <None Include="shader\phong\basic.shader" />
-    <None Include="shader\phong\phong_multiPointLight.shader" />
     <None Include="shader\screen.shader" />
     <None Include="shader\color.shader" />
     <None Include="shader\preview.shader" />

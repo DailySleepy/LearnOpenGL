@@ -35,10 +35,10 @@ bool enablePlaneIntersection = true;
 bool enableAABBIntersection = true;
 bool enableLogDepthSlice = false;
 
-string directory = { "F:/Documents/Visual Studio 2022/VS Projects/LearnOpenGL/" };
+string directory = { "F:/Visual Studio 2022/VisualStudioProject/LearnOpenGL" };
 inline string getPath(const string& relativePath)
 {
-	return directory + relativePath;
+	return directory + '/' + relativePath;
 }
 
 vec3 randomPoint(float radius)

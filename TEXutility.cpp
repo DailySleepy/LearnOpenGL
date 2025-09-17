@@ -103,13 +103,13 @@ void TEX::setTexWarp(GLenum wrapMode, int dimension)
 	}
 }
 
-uint32_t TEX::createTexture(int width, int height, GLenum iFormat)
+uint32_t TEX::createTexture(int width, int height, GLenum iFormat, GLenum filterMode)
 {
 	uint32_t textureID;
 	GLCall(glGenTextures(1, &textureID));
 	GLCall(glBindTexture(GL_TEXTURE_2D, textureID));
 	GLCall(glTexImage2D(GL_TEXTURE_2D, 0, iFormat, width, height, 0, getFormat(iFormat), getType(iFormat), nullptr));
-	setTexFilter(GL_LINEAR, GL_LINEAR);
+	setTexFilter(filterMode, filterMode);
 	glBindTexture(GL_TEXTURE_2D, 0);
 	return textureID;
 }
@@ -240,7 +240,7 @@ uint32_t TEX::loadTextureFromFilepath(string path)
 	return textureID;
 }
 
-uint32_t TEX::loadTextureFromFilepath(string path, int* w, int* h)
+uint32_t TEX::loadTextureFromFilepath(string path, int* w, int* h, GLenum filterMode)
 {
 	if (w == nullptr || h == nullptr)
 	{
@@ -263,7 +263,7 @@ uint32_t TEX::loadTextureFromFilepath(string path, int* w, int* h)
 		GLCall(glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA8, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data));
 		// 强制4通道RGBA, 因为compute shader只接受可读写(imageLoad/imageStore)类型(rgba/rg/r), 其他shader支持rgb(使用texture()采样)
 		setTexWarp();
-		setTexFilter();
+		setTexFilter(filterMode, filterMode);
 		GLCall(glGenerateMipmap(GL_TEXTURE_2D));
 	}
 	else

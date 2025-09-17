@@ -40,6 +40,7 @@ public:
 	void d_Blend() { glDisable(GL_BLEND); }
 
 	void setViewport(int w, int h) { glViewport(0, 0, w, h); }
+	void setViewport(vec2 v) { glViewport(0, 0, v.x, v.y); }
 
 	void draw(const VertexArray& vao, const VertexBuffer& vbo, const IndexBuffer& ibo, const Shader& shader, int count)
 	{

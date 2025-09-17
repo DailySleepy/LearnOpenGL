@@ -20,6 +20,7 @@ public:
 	void pollEvents() const;
 	void processInput();
 	void resize(int w, int h);
+	void resize(vec2 v);
 
 	GLFWwindow* getGLFWWindow() const { return m_window; }
 	float getAspectRatio() const { return static_cast<float>(m_width) / m_height; }

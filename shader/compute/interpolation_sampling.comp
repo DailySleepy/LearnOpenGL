@@ -1,0 +1,110 @@
+#version 460 core
+#extension GL_ARB_bindless_texture : require
+
+layout(local_size_x = 16, local_size_y = 16) in;
+
+layout(bindless_sampler) uniform sampler2D inputTexture;
+layout(bindless_image, rgba8) writeonly uniform image2D outputImage;
+
+uniform vec2 outputSize;
+uniform int interpolationMethod;
+
+vec4 nearestInterpolation(vec2 uv, vec2 inputSize) {
+	vec2 pixel = uv * inputSize;
+	ivec2 texel = ivec2(pixel);
+	return texelFetch(inputTexture, texel, 0);
+}
+
+vec4 bilinearInterpolation(vec2 uv, vec2 inputSize) {
+	vec2 pixel = uv * inputSize;
+
+	ivec2 p00 = ivec2(pixel);
+	ivec2 p01 = clamp(p00 + ivec2(0, 1), ivec2(0, 0), ivec2(inputSize) - 1);
+	ivec2 p10 = clamp(p00 + ivec2(1, 0), ivec2(0, 0), ivec2(inputSize) - 1);
+	ivec2 p11 = clamp(p00 + ivec2(1, 1), ivec2(0, 0), ivec2(inputSize) - 1);
+
+	vec4 c00 = texelFetch(inputTexture, p00, 0);
+	vec4 c01 = texelFetch(inputTexture, p01, 0);
+	vec4 c10 = texelFetch(inputTexture, p10, 0);
+	vec4 c11 = texelFetch(inputTexture, p11, 0);
+
+	vec2 frac = fract(pixel);
+	vec4 cx0 = mix(c00, c10, frac.x);
+	vec4 cx1 = mix(c01, c11, frac.x);
+	return mix(cx0, cx1, frac.y);
+}
+
+float cubicWeight(float x) {
+    float a = -0.5;
+    x = abs(x);
+	float x2 = x * x, x3 = x2 * x;
+    if (x <= 1.0) {
+        return (a + 2.0) * x3 - (a + 3.0) * x2 + 1.0;
+    }
+	else if(x < 2.0) {
+		return a * x3 - 5.0 * a * x2 + 8.0 * a * x - 4.0 * a;
+	}
+	return 0.0;
+}
+
+vec4 bicubicInterpolation(vec2 uv, vec2 inputSize) {
+	vec2 pixel = uv * inputSize;
+	vec2 frac = fract(pixel);
+	ivec2 texel = ivec2(pixel);
+
+	vec4 sum = vec4(0.0);
+	float weightSum = 0.0;
+
+	for(int x = -1; x <= 2; x++) {
+		for(int y = -1; y <= 2; y++) {
+			ivec2 t = clamp(texel + ivec2(x, y), ivec2(0), ivec2(inputSize) - 1);
+
+			float wx = cubicWeight(float(x) - frac.x);
+			float wy = cubicWeight(float(y) - frac.y);
+			float w = wx * wy;
+
+			sum += texelFetch(inputTexture, t, 0) * w;
+			weightSum += w;
+		}	
+	}
+	return sum / weightSum;
+}
+
+vec4 boxInterpolation(vec2 uv, vec2 inputSize) {
+    vec2 pixel = uv * inputSize;
+    ivec2 texel = ivec2(pixel);
+
+    vec4 sum = vec4(0.0);
+    int count = 0;
+
+    for(int x = -1; x <= 2; x++) {
+        for(int y = -1; y <= 2; y++) {
+            ivec2 t = clamp(texel + ivec2(x, y), ivec2(0), ivec2(inputSize) - 1);
+            sum += texelFetch(inputTexture, t, 0);
+            count++;
+        }    
+    }
+    return sum / float(count);
+}
+
+void main() {
+	vec2 pixel = gl_GlobalInvocationID.xy;
+	if(pixel.x >= outputSize.x || pixel.y >= outputSize.y) return;
+
+	vec2 inputSize = textureSize(inputTexture, 0);
+	vec2 uv = pixel / outputSize;
+
+	vec4 color;
+	if(interpolationMethod == 0) 
+        color = nearestInterpolation(uv, inputSize);
+    else if(interpolationMethod == 1)
+        color = bilinearInterpolation(uv, inputSize);
+    else if(interpolationMethod == 2)
+        color = bicubicInterpolation(uv, inputSize);
+    else if(interpolationMethod == 3)
+        color = boxInterpolation(uv, inputSize);
+    else 
+        color = vec4(0);
+
+	imageStore(outputImage, ivec2(pixel), color);
+}

@@ -124,6 +124,11 @@ void Window::resize(int w, int h)
 	glfwSetWindowSize(getGLFWWindow(), w, h);
 }
 
+void Window::resize(vec2 v)
+{
+	resize(v.x, v.y);
+}
+
 float Window::getTime()
 {
 	return glfwGetTime();

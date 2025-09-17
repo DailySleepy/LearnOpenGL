@@ -97,7 +97,7 @@
     <ClCompile Include="TEXutility.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Application.cpp">
+    <ClCompile Include="history\compute shader\general image process\Application - bindless texture.cpp">
       <Filter>入口</Filter>
     </ClCompile>
   </ItemGroup>
@@ -114,28 +114,7 @@
     <None Include="shader\screen.shader">
       <Filter>shader\basic</Filter>
     </None>
-    <None Include="shader\deferred\instancedLight.shader">
-      <Filter>shader</Filter>
-    </None>
-    <None Include="shader\deferred\tiled\transformLight.comp">
-      <Filter>shader</Filter>
-    </None>
-    <None Include="shader\deferred\renderGbuffer.frag">
-      <Filter>shader</Filter>
-    </None>
-    <None Include="shader\deferred\renderGbuffer.vert">
-      <Filter>shader</Filter>
-    </None>
-    <None Include="shader\phong\phong_multiPointLight.shader">
-      <Filter>shader</Filter>
-    </None>
-    <None Include="shader\deferred\clustered\clusteredDeferred.frag">
-      <Filter>shader</Filter>
-    </None>
-    <None Include="shader\deferred\clustered\clusteredDeferred.vert">
-      <Filter>shader</Filter>
-    </None>
-    <None Include="shader\deferred\clustered\clusterLight.comp">
+    <None Include="shader\compute\interpolation_sampling.comp">
       <Filter>shader</Filter>
     </None>
   </ItemGroup>

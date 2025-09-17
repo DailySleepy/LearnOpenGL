@@ -7,9 +7,9 @@ struct TextureCore
 	uint64_t handle;
 
 	TextureCore() : id(0), handle(0) {};
-	TextureCore(uint32_t width, uint32_t height, GLenum iFormat = GL_RGBA8)
+	TextureCore(uint32_t width, uint32_t height, GLenum iFormat = GL_RGBA8, GLenum filterMode = GL_LINEAR)
 	{
-		id = TEX::createTexture(width, height, iFormat);
+		id = TEX::createTexture(width, height, iFormat, filterMode);
 		createHandle();
 	}
 	virtual ~TextureCore()
@@ -43,13 +43,13 @@ struct TexTag
 struct Texture : TextureCore, TexTag
 {
 	Texture() = default;
-	Texture(uint32_t width, uint32_t height, GLenum iFormat = GL_RGBA8) :
-		TextureCore(width, height, iFormat), TexTag(width, height)
+	Texture(uint32_t width, uint32_t height, GLenum iFormat = GL_RGBA8, GLenum filterMode = GL_LINEAR) :
+		TextureCore(width, height, iFormat, filterMode), TexTag(width, height)
 	{
 	}
-	Texture(string path)
+	Texture(string path, GLenum filterMode = GL_LINEAR)
 	{
-		id = TEX::loadTextureFromFilepath(path, &width, &height);
+		id = TEX::loadTextureFromFilepath(path, &width, &height, filterMode);
 		createHandle();
 	}
 };
@@ -59,12 +59,12 @@ struct ImageTexture : Texture
 	uint64_t imageHandle;
 
 	ImageTexture() : Texture(), imageHandle(0) {}
-	ImageTexture(string path) : Texture(path)
+	ImageTexture(string path, GLenum filterMode = GL_LINEAR) : Texture(path, filterMode)
 	{
 		imageHandle = 0;
 	}
-	ImageTexture(uint32_t width, uint32_t height, GLenum iFormat = GL_RGBA8) :
-		Texture(width, height, iFormat)
+	ImageTexture(uint32_t width, uint32_t height, GLenum iFormat = GL_RGBA8, GLenum filterMode = GL_LINEAR) :
+		Texture(width, height, iFormat, filterMode)
 	{
 		imageHandle = 0;
 	}

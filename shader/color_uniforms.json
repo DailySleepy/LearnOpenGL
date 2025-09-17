@@ -1,4 +1,0 @@
-Shader::UniformMap u_ = {
-    {"model", model},
-    {"iColor", iColor},
-};
