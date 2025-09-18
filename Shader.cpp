@@ -123,49 +123,64 @@ void Shader::bindSSBO(unsigned int ssbo, string blockName, unsigned int binding)
 	GLCall(glBindBufferBase(GL_SHADER_STORAGE_BUFFER, binding, ssbo));
 }
 
-void Shader::setInt1(const string& name, int v0)
+void Shader::set(const string& name, int v)
 {
-	GLCall(glUniform1i(getUniformLocation(name), v0));
+	GLCall(glUniform1i(getUniformLocation(name), v));
 }
 
-void Shader::setFloat1(const string& name, float v0)
+void Shader::set(const string& name, bool v)
 {
-	GLCall(glUniform1f(getUniformLocation(name), v0));
+	set(name, int(v));
 }
 
-void Shader::setFloat2(const string& name, float v0, float v1)
+void Shader::set(const string& name, float v)
+{
+	GLCall(glUniform1f(getUniformLocation(name), v));
+}
+
+void Shader::set(const string& name, double v)
+{
+	set(name, float(v));
+}
+
+void Shader::set(const string& name, uint64 handle)
+{
+	GLCall(glUniformHandleui64ARB(getUniformLocation(name), handle));
+}
+
+void Shader::set(const string& name, float v0, float v1)
 {
 	GLCall(glUniform2f(getUniformLocation(name), v0, v1));
 }
 
-void Shader::setFloat3(const string& name, float v0, float v1, float v2)
+void Shader::set(const string& name, float v0, float v1, float v2)
 {
 	GLCall(glUniform3f(getUniformLocation(name), v0, v1, v2));
 }
 
-void Shader::setVec2(const string& name, vec2 vec)
+void Shader::set(const string& name, float v0, float v1, float v2, float v3)
 {
-	setFloat2(name, vec[0], vec[1]);
+	GLCall(glUniform4f(getUniformLocation(name), v0, v1, v2, v3));
 }
 
-void Shader::setVec3(const string& name, vec3 vec)
+void Shader::set(const string& name, vec2 vec)
 {
-	setFloat3(name, vec[0], vec[1], vec[2]);
+	set(name, vec[0], vec[1]);
 }
 
-void Shader::setVec4(const string& name, vec4 vec)
+void Shader::set(const string& name, vec3 vec)
 {
-	GLCall(glUniform4f(getUniformLocation(name), vec[0], vec[1], vec[2], vec[3]));
+	set(name, vec[0], vec[1], vec[2]);
 }
 
-void Shader::setMat4(const string& name, mat4 mat)
+void Shader::set(const string& name, vec4 vec)
+{
+	set(name, vec[0], vec[1], vec[2], vec[3]);
+}
+
+void Shader::set(const string& name, mat4 mat)
 {
 	GLCall(glUniformMatrix4fv(getUniformLocation(name), 1, GL_FALSE, value_ptr(mat)));
-}
-
-void Shader::setHandle(const string& name, uint64_t handle)
-{
-	GLCall(glUniformHandleui64ARB(getUniformLocation(name), handle));
 }
 
 void Shader::set(const UniformMap& uniforms)

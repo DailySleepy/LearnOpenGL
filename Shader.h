@@ -46,30 +46,22 @@ public:
 	void bindUBO(unsigned int ubo, string blockName, unsigned int binding);
 	void bindSSBO(unsigned int ssbo, unsigned int binding);
 	void bindSSBO(unsigned int ssbo, string blockName, unsigned int binding);
-	void setInt1(const string& name, int v0);
-	void setFloat1(const string& name, float v0);
-	void setFloat2(const string& name, float v0, float v1);
-	void setFloat3(const string& name, float v0, float v1, float v2);
-	void setVec2(const string& name, vec2 vec);
-	void setVec3(const string& name, vec3 vec);
-	void setVec4(const string& name, vec4 vec);
-	void setMat4(const string& name, mat4 mat);
-	void setHandle(const string& name, uint64_t handle);
 
 	template<typename T>
-	void set(const string name, T v) = delete;
-	void set(const string name, int v) { setInt1(name, v); }
-	void set(const string name, bool v) { setInt1(name, v); }
-	void set(const string name, float v) { setFloat1(name, v); }
-	void set(const string name, double v) { setFloat1(name, v); }
-	void set(const string name, uint64_t v) { setHandle(name, v); }
-	void set(const string name, vec2 v) { setVec2(name, v); }
-	void set(const string name, vec3 v) { setVec3(name, v); }
-	void set(const string name, vec4 v) { setVec4(name, v); }
-	void set(const string name, mat4 v) { setMat4(name, v); }
-	void set(const string name, float v0, float v1) { setFloat2(name, v0, v1); }
-	void set(const string name, float v0, float v1, float v2) { setFloat3(name, v0, v1, v2); }
-	using UniformValue = variant<int, bool, float, double, uint64_t, vec2, vec3, vec4, mat4>;
+	void set(const string& name, T v) = delete; // 禁止隐式类型转换, 只允许精确匹配, 模糊匹配的会导向到这个被删除的模板函数
+	void set(const string& name, int v);
+	void set(const string& name, bool v);
+	void set(const string& name, float v);
+	void set(const string& name, double v);
+	void set(const string& name, uint64 handle);
+	void set(const string& name, vec2 v);
+	void set(const string& name, vec3 v);
+	void set(const string& name, vec4 v);
+	void set(const string& name, mat4 v);
+	void set(const string& name, float v0, float v1);
+	void set(const string& name, float v0, float v1, float v2);
+	void set(const string& name, float v0, float v1, float v2, float v3);
+	using UniformValue = variant<int, bool, float, double, uint64, vec2, vec3, vec4, mat4>;
 	using UniformMap = unordered_map<string, UniformValue>;
 	void set(const UniformMap& uniforms);
 

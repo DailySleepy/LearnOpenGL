@@ -41,14 +41,14 @@ int main()
 	ImageTexture tOutput(outputSize.x, outputSize.y, GL_RGBA8, GL_NEAREST);
 	tOutput.createImageHandle(GL_RGBA8, GL_WRITE_ONLY);
 
-	ScreenQuad screenQuad;
-	Shader sScreen(getPath("shader/screen.shader"));
-
 	Shader sCompute(getPath("shader/compute/interpolation_sampling.comp"), ShaderType::Compute);
 	sCompute.bind();
 	sCompute.set("outputSize", outputSize);
-	sCompute.setHandle("inputTexture", tInput.getHandle());
-	sCompute.setHandle("outputImage", tOutput.getImageHandle());
+	sCompute.set("inputTexture", tInput.getHandle());
+	sCompute.set("outputImage", tOutput.getImageHandle());
+
+	ScreenQuad screenQuad;
+	Shader sScreen(getPath("shader/screen.shader"));
 
 	Renderer renderer;
 	renderer.setClearColor(0.1, 0.1, 0.1, 1);
@@ -67,9 +67,9 @@ int main()
 
 		sScreen.bind();
 		if (interpolationMethod == ORIGIN)
-			sScreen.setHandle("screenTexture", tInput.getHandle());
+			sScreen.set("screenTexture", tInput.getHandle());
 		else
-			sScreen.setHandle("screenTexture", tOutput.getHandle());
+			sScreen.set("screenTexture", tOutput.getHandle());
 		screenQuad.draw(sScreen);
 
 		imguiManager.beginFrame("select interpolation method");

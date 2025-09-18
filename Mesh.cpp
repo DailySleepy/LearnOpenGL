@@ -38,8 +38,7 @@ void Mesh::draw(Shader& shader, int count) const
 		else if (name == "reflection") number = std::to_string(reflectionNr++);
 		else if (name == "ambient") number = std::to_string(ambientNr++);
 
-
-		shader.setHandle("material." + name + number, textures[i]->getHandle());
+		shader.set("material." + name + number, textures[i]->getHandle());
 
 		/*GLCall(glActiveTexture(GL_TEXTURE0 + i));
 		GLCall(glBindTexture(GL_TEXTURE_2D, textures[i]->id));
