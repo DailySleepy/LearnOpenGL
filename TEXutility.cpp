@@ -182,7 +182,7 @@ uint64_t TEX::createTextureHandle(uint32_t textureID)
 	return handle;
 }
 
-uint64_t TEX::createImageHandle(uint32_t textureID, GLenum accessFormat, GLenum accessMode)
+uint64_t TEX::createImageHandle(uint32_t textureID, GLenum accessMode, GLenum accessFormat)
 {
 	uint64_t handle;
 	GLCall(handle = glGetImageHandleARB(textureID, 0, GL_FALSE, 0, accessFormat));

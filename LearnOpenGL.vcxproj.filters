@@ -97,7 +97,7 @@
     <ClCompile Include="TEXutility.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="history\compute shader\general image process\Application - bindless texture.cpp">
+    <ClCompile Include="history\compute shader\up and down sample\Application - bindless texture.cpp">
       <Filter>入口</Filter>
     </ClCompile>
   </ItemGroup>

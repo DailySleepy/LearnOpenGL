@@ -9,6 +9,23 @@
 class Renderer
 {
 public:
+	Renderer()
+	{
+		//glEnable(GL_FRAMEBUFFER_SRGB);
+
+		glEnable(GL_DEPTH_TEST);
+
+		glEnable(GL_STENCIL_TEST);
+
+		/*glEnable(GL_BLEND);
+		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);*/
+
+		glEnable(GL_CULL_FACE);
+		glCullFace(GL_BACK);
+		glFrontFace(GL_CCW);
+
+		//glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+	}
 	void setClearColor(float r, float g, float b, float a) { glClearColor(r, g, b, a); }
 	void setClearColor(vec3 v, float a) { glClearColor(v.r, v.g, v.b, a); }
 

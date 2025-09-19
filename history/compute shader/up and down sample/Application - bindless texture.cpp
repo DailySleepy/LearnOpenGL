@@ -29,6 +29,9 @@ inline string getPath(const string& relativePath)
 
 enum { NEAREST = 0, BILINEAR, BICUBIC, BOX, ORIGIN };
 int interpolationMethod = NEAREST;
+float scaleFactor = 1;
+float lastScaleFactor = scaleFactor;
+bool syncViewportWithWindowSize = false;
 
 int main()
 {
@@ -36,14 +39,14 @@ int main()
 	ImGuiManager imguiManager(window.getGLFWWindow());
 
 	Texture tInput("res/texture/test/uv.jpg");
-	float scale = 4;
-	vec2 outputSize = vec2(tInput.width, tInput.height) * scale;
+	vec2 inputSize = vec2(tInput.getWidth(), tInput.getHeight());
+	vec2 outputSize = inputSize * scaleFactor;
 	ImageTexture tOutput(outputSize.x, outputSize.y, GL_WRITE_ONLY, GL_RGBA8, GL_RGBA8, GL_NEAREST);
 
 	Shader sCompute(getPath("shader/compute/interpolation_sampling.comp"), ShaderType::Compute);
 	sCompute.bind();
-	sCompute.set("outputSize", outputSize);
 	sCompute.set("inputTexture", tInput.getHandle());
+	sCompute.set("outputSize", outputSize);
 	sCompute.set("outputImage", tOutput.getImageHandle());
 
 	ScreenQuad screenQuad;
@@ -51,12 +54,27 @@ int main()
 
 	Renderer renderer;
 	renderer.setClearColor(0.1, 0.1, 0.1, 1);
-	renderer.setViewport(outputSize / scale);
-	window.resize(outputSize / scale);
+	renderer.setViewport(outputSize);
+	window.resize(outputSize / scaleFactor);
 
 	while (!window.shouldClose())
 	{
 		renderer.clearAllBit();
+
+		if (scaleFactor != lastScaleFactor)
+		{
+			outputSize = inputSize * scaleFactor;
+			tOutput = ImageTexture(outputSize.x, outputSize.y, GL_WRITE_ONLY, GL_RGBA8, GL_RGBA8, GL_NEAREST);
+
+			sCompute.bind();
+			sCompute.set("outputSize", outputSize);
+			sCompute.set("outputImage", tOutput.getImageHandle());
+
+			renderer.setViewport(syncViewportWithWindowSize ? outputSize / scaleFactor : outputSize);
+			window.resize(outputSize / scaleFactor);
+
+			lastScaleFactor = scaleFactor;
+		}
 
 		sCompute.bind();
 		sCompute.set("interpolationMethod", interpolationMethod);
@@ -71,7 +89,9 @@ int main()
 			sScreen.set("screenTexture", tOutput.getHandle());
 		screenQuad.draw(sScreen);
 
-		imguiManager.beginFrame("select interpolation method");
+		imguiManager.beginFrame("Image Interpolation");
+		ImGui::Checkbox("syncViewportWithWindowSize", &syncViewportWithWindowSize);
+		ImGui::SliderFloat("Scale", &scaleFactor, 0.1f, 10.0f, "%.2f");
 		ImGui::RadioButton("Nearest", &interpolationMethod, NEAREST);
 		ImGui::RadioButton("Bilinear", &interpolationMethod, BILINEAR); // 模糊, 适合下采样
 		ImGui::RadioButton("Bicubic", &interpolationMethod, BICUBIC); // 锐化, 适合上采样
@@ -82,8 +102,6 @@ int main()
 		window.swapBuffers();
 		window.pollEvents();
 	}
-
-	//tOutput.saveToJPG("");
 
 	return 0;
 }

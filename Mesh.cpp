@@ -30,7 +30,7 @@ void Mesh::draw(Shader& shader, int count) const
 	for (int i = 0; i < textures.size(); i++)
 	{
 		string number;
-		string name = textures[i]->type;
+		string name = textures[i]->getType();
 		if (name == "diffuse") number = std::to_string(diffuseNr++);
 		else if (name == "specular") number = std::to_string(specularNr++);
 		else if (name == "normal") number = std::to_string(normalNr++);

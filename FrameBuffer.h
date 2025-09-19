@@ -16,10 +16,10 @@ private:
 
 	unsigned int m_RendererID;
 
-	vector<unique_ptr<TextureCore>> m_ColorTexture;
-	unique_ptr<TextureCore> m_DepthTexture;
-	unique_ptr<CubemapCore> m_DepthCubemap;
-	unique_ptr<MultisampleTextureCore> m_ColorMultisampleTexture;
+	vector<unique_ptr<Texture>> m_ColorTexture;
+	unique_ptr<Texture> m_DepthTexture;
+	unique_ptr<Cubemap> m_DepthCubemap;
+	unique_ptr<MultisampleTexture> m_ColorMultisampleTexture;
 	unsigned int m_RenderBuffer = 0;
 	unsigned int m_RenderBufferMultisample = 0;
 public:

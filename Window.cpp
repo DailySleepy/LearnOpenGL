@@ -39,24 +39,6 @@ void loadIcon(GLFWwindow* window)
 	}
 }
 
-void initRenderMode()
-{
-	//glEnable(GL_FRAMEBUFFER_SRGB);
-
-	glEnable(GL_DEPTH_TEST);
-
-	glEnable(GL_STENCIL_TEST);
-
-	/*glEnable(GL_BLEND);
-	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);*/
-
-	glEnable(GL_CULL_FACE);
-	glCullFace(GL_BACK);
-	glFrontFace(GL_CCW);
-
-	//glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
-}
-
 Window::Window(int width, int height, glm::vec3 cameraPos)
 	: m_width(width), m_height(height), m_lastX(width / 2.0), m_lastY(height / 2.0)
 	, m_firstMouse(true), m_canChangeView(true), m_deltaTime(0.0f), m_lastFrame(0.0f)
@@ -77,8 +59,6 @@ Window::Window(int width, int height, glm::vec3 cameraPos)
 	initCamera(cameraPos);
 
 	glewInit();
-
-	initRenderMode();
 }
 
 Window::~Window()

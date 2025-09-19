@@ -250,7 +250,7 @@ vector<shared_ptr<Texture>> Model::loadTexture(const aiScene* scene, aiMaterial*
 		bool skip = false;
 		for (int j = 0; j < loaded_textures.size(); j++)
 		{
-			if (strcmp(loaded_textures[j]->path.c_str(), fileName) == 0)
+			if (strcmp(loaded_textures[j]->getPath().c_str(), fileName) == 0)
 			{
 				textures.push_back(loaded_textures[j]);
 				skip = true;
@@ -267,8 +267,8 @@ vector<shared_ptr<Texture>> Model::loadTexture(const aiScene* scene, aiMaterial*
 			else
 				texture->id = TEX::loadTextureFromFilepath(directory + '/' + fileName);
 			texture->handle = TEX::createTextureHandle(texture->id);
-			texture->type = typeName;
-			texture->path = fileName;
+			texture->setType(typeName);
+			texture->setPath(fileName);
 			textures.push_back(texture);
 			loaded_textures.push_back(texture);
 		}

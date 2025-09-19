@@ -185,12 +185,12 @@ int main()
 					modelMatrix = mat4(1.0f);
 					modelMatrix = translate(modelMatrix, vec3(i * 3.0f, -1.0f, j * 3.0f));
 					modelMatrix = scale(modelMatrix, 0.2f * vec3(1));
-					sRenderGbuffer.setMat4("model", modelMatrix);
+					sRenderGbuffer.set("model", modelMatrix);
 					mNanosuit.draw(sRenderGbuffer);
 				}
 			}
 			modelMatrix = mat4(1);
-			sRenderGbuffer.setMat4("model", modelMatrix);
+			sRenderGbuffer.set("model", modelMatrix);
 			mRoom.draw(sRenderGbuffer);
 		}
 
@@ -200,7 +200,7 @@ int main()
 			sTransformLight.bindUBO(ubo.getUBO(), 0);
 			sTransformLight.bindSSBO(ssbo_lightPos.getSSBO(), 0);
 			sTransformLight.bindSSBO(ssbo_lightPosView.getSSBO(), 1);
-			sTransformLight.setInt1("lightCount", lightCount);
+			sTransformLight.set("lightCount", lightCount);
 			glDispatchCompute(ceil(float(lightCount) / 64), 1, 1);
 			glMemoryBarrier(GL_SHADER_STORAGE_BARRIER_BIT);
 		}
@@ -246,7 +246,7 @@ int main()
 
 			sDrawLight.bind();
 			sDrawLight.bindUBO(ubo.getUBO(), 0);
-			sDrawLight.setFloat1("radius", 0.05f);
+			sDrawLight.set("radius", 0.05f);
 			mLight.draw(sDrawLight, lightCount);
 		}
 
@@ -263,10 +263,10 @@ int main()
 			sPhong.bindUBO(ubo.getUBO(), 0);
 			sPhong.bindSSBO(ssbo_lightPos.getSSBO(), 0);
 			sPhong.bindSSBO(ssbo_lightColor.getSSBO(), 1);
-			sPhong.setMat4("model", modelMatrix);
-			sPhong.setVec3("viewPos", camera.position);
-			sPhong.setInt1("lightCount", lightCount);
-			sPhong.setFloat1("R_max", R_max);
+			sPhong.set("model", modelMatrix);
+			sPhong.set("viewPos", camera.position);
+			sPhong.set("lightCount", lightCount);
+			sPhong.set("R_max", R_max);
 			mGlass.draw(sPhong);
 
 			renderer.d_Blend();

@@ -86,13 +86,13 @@ FrameBuffer::~FrameBuffer()
 void FrameBuffer::attachColorTexture(unsigned int index, GLenum iFormat)
 {
 	m_ColorTexture.resize(index + 1);
-	m_ColorTexture[index] = make_unique<TextureCore>(width, height, iFormat);
+	m_ColorTexture[index] = make_unique<Texture>(width, height, iFormat);
 	GLCall(glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0 + index, GL_TEXTURE_2D, m_ColorTexture[index]->id, 0));
 }
 
 void FrameBuffer::attachDepthTexture(GLenum iFormat)
 {
-	m_DepthTexture = make_unique<TextureCore>();
+	m_DepthTexture = make_unique<Texture>();
 	m_DepthTexture->id = TEX::createDepthTexture(width, height, iFormat);
 	m_DepthTexture->createHandle();
 	GLCall(glFramebufferTexture2D(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_TEXTURE_2D, m_DepthTexture->id, 0));
@@ -102,7 +102,7 @@ void FrameBuffer::attachDepthTexture(GLenum iFormat)
 
 void FrameBuffer::attachDepthCubemap(GLenum iFormat)
 {
-	m_DepthCubemap = make_unique<CubemapCore>();
+	m_DepthCubemap = make_unique<Cubemap>();
 	m_DepthCubemap->id = TEX::createDepthCubemap(width, height, iFormat);
 	m_DepthCubemap->createHandle();
 
@@ -113,7 +113,7 @@ void FrameBuffer::attachDepthCubemap(GLenum iFormat)
 
 void FrameBuffer::attachColorTextureMultisample(GLenum iFormat, unsigned int samples)
 {
-	m_ColorMultisampleTexture = make_unique<MultisampleTextureCore>();
+	m_ColorMultisampleTexture = make_unique<MultisampleTexture>();
 	m_ColorMultisampleTexture->id = TEX::createMultisampleTexture(width, height, iFormat, samples);
 	m_ColorMultisampleTexture->createHandle();
 	GLCall(glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D_MULTISAMPLE, m_ColorMultisampleTexture->id, 0));
